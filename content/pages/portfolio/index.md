@@ -7,17 +7,17 @@ template = "page.html"
 
 Simple game where you plan optimal routes for delivery trucks based on customer needs.
 
-{{resize_image(path="portfolio/truck_game_roads.png", alt="Map inside Blender")}}
+{{resize_image(path="pages/portfolio/truck_game_roads.png", alt="Map inside Blender")}}
 Defining roads as paths inside Blender.
 
 <video width="100%" height="auto" autoplay muted loop>
-    <source src="portfolio/TruckGameDev.webm" type="video/webm">
+    <source src="pages/portfolio/TruckGameDev.webm" type="video/webm">
 </video>
 Roads extracted from GLTF file and interactable inside Bevy.
 
 
 <video width="100%" height="auto" autoplay muted loop>
-    <source src="portfolio/TruckGameRender.webm" type="video/webm">
+    <source src="pages/portfolio/TruckGameRender.webm" type="video/webm">
 </video>
 A cool render of the city I generated for this project.
 
@@ -25,7 +25,7 @@ A cool render of the city I generated for this project.
 
 ## Untitled castle game
 
-{{resize_image(path="portfolio/castle_trees.jpg", alt="Castle game")}}
+{{resize_image(path="pages/portfolio/castle_trees.jpg", alt="Castle game")}}
 
 Experimental raymarching renderer for [Bevy](https://bevyengine.org/).
 
@@ -36,11 +36,11 @@ Experimental raymarching renderer for [Bevy](https://bevyengine.org/).
 </video>
 AMD FidelityFX Super Resolution 1.0 provides a nice boost to FPS.
 
-{{resize_image(path="portfolio/castle_no_bvh.png", alt="Castle game")}}
+{{resize_image(path="pages/portfolio/castle_no_bvh.png", alt="Castle game")}}
 Even with FSR, the renderer still struggles when there are too many objects.
 
 
-{{resize_image(path="portfolio/castle_bvh_debug.png", alt="Castle game")}}
+{{resize_image(path="pages/portfolio/castle_bvh_debug.png", alt="Castle game")}}
 BVH lookup was implemented to limit the amount of raymarched objects per ray.
 
 <video width="100%" height="auto" autoplay muted loop>
@@ -48,7 +48,7 @@ BVH lookup was implemented to limit the amount of raymarched objects per ray.
 </video>
 This provided a solid FPS increase.
 
-{{resize_image(path="portfolio/castle_bvh.jpg", alt="Castle game")}}
+{{resize_image(path="pages/portfolio/castle_bvh.jpg", alt="Castle game")}}
 No we can have many towers :)
 
 ### Visuals
@@ -85,4 +85,4 @@ Cute game my fiancé and I made for [Ludum Dare 50](https://ldjam.com/events/lud
 </video>
 
 Oh and I also draw sometimes:
-{{resize_image(path="portfolio/karl.jpg", alt="A drawing of a dog")}}
+{{resize_image(path="pages/portfolio/karl.jpg", alt="A drawing of a dog")}}
