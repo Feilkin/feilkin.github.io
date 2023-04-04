@@ -45,13 +45,14 @@ BVH lookup was implemented to limit the amount of raymarched objects per ray.
 This provided a solid FPS increase.
 
 {{resize_image(path="pages/portfolio/castle_bvh.jpg", alt="Castle game")}}
-No we can have many towers :)
+Now we can have many towers :)
 
 ### Visuals
 
 <video width="100%" height="auto" autoplay muted loop>
     <source src="CastleSky.webm" type="video/webm">
 </video>
+
 The sky simulates rayleigh scattering, inspired by [this video](https://www.youtube.com/watch?v=DxfEbulyFcY).
 
 
